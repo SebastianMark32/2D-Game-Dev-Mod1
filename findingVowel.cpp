@@ -40,7 +40,7 @@ while(true){
    
   // I do not think -1 exit flag is possible since we are using chars
   if(userInput == "-1"){
-    std::cout << "Thank you for playing the vowel Meta-verse game!" << std::endl;
+    std::cout << "Thank you for playing!" << std::endl;
     return 0;
 }
 
