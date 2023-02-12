@@ -1,6 +1,6 @@
 /**
  * This program will ask the user to enter a character 
- * The v
+ *
  *
  *
  *@author Sebastian Mark
