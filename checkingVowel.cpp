@@ -6,9 +6,9 @@
  *
  *  @author Sebastian Mark
  *
- *C++ 2D Game Development 
-
- Professor Roy
+ * C++ 2D Game Development 
+ *
+ * Professor Roy
  * ***********************************************/
 
 #include <iostream>
