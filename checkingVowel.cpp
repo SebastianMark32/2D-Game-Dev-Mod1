@@ -1,3 +1,16 @@
+/**************************************************
+ * This program takes a user input and checkes 
+ * whether a character is a vowel or consonant
+ * or some other character that is not defined
+ * as an alaphabet character.
+ *
+ *  @author Sebastian Mark
+ *
+ *C++ 2D Game Development 
+
+ Professor Roy
+ * ***********************************************/
+
 #include <iostream>
 
 void vowelCheck(char vowel){
@@ -10,7 +23,9 @@ void vowelCheck(char vowel){
    
     std::cout << "This character is an UPPER case vowel" << std::endl;
   
-  } else std::cout << "This character is a consonant" << std::endl;
+  } else if (!isalpha(vowel)) {
+    std::cout << "Not a valid character" << std::endl;
+  } else std::cout << "consonant" << std::endl;
 }
 int main(){
 
