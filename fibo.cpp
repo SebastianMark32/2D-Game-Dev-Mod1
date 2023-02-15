@@ -2,7 +2,7 @@
  * Fibonacci is a recursion relation that will sum the two previous numbers
  * The user will give an input of how the sum of the first n Fibonacci numbers
  * 
- * * WARNING* after the 40th Fibonacii number the compilation reall slows down
+ * * WARNING* after the 40th Fibonacii number the compilation really slows down
  *
  * @author Sebastian Mark
  *
