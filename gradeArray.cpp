@@ -1,3 +1,14 @@
+/******************************************************
+ * This program takes a user input and calculates the
+ * average grade amongst five inputs.
+ *
+ *  @author Sebastian Mark
+ *
+ *  C++ 2D Game development
+ *
+ * Professor Roy
+ * ***************************************************/
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
