@@ -5,7 +5,7 @@ int main() {
   int userInput;
   int reversed = 0;
   int remainder;
-  std::cout << "Enter an integer: ";
+  std::cout << "Enter an integer > 9: ";
   std::cin >> userInput;
 
   while(true) {
