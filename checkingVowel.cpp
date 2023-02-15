@@ -17,15 +17,15 @@ void vowelCheck(char vowel){
 
   if (vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o' || vowel =='u'){
    
-    std::cout << "This character is lower case vowel" << std::endl;
+    std::cout << " is lower case vowel" << std::endl;
   
   } else if ( vowel == 'A' || vowel == 'E' || vowel == 'I' || vowel == 'O' || vowel =='U'){
    
-    std::cout << "This character is an UPPER case vowel" << std::endl;
+    std::cout << vowel << " is an UPPER case vowel" << std::endl;
   
   } else if (!isalpha(vowel)) {
     std::cout << "Not a valid character" << std::endl;
-  } else std::cout << "consonant" << std::endl;
+  } else std::cout << "Your character " << vowel << " is a consonant" std::endl;
 }
 int main(){
 
