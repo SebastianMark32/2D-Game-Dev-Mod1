@@ -2,13 +2,14 @@
 
 int main() {
 
-  int userInput, reversed = 0, remainder;
-
+  int userInput;
+  int reversed = 0;
+  int remainder;
   std::cout << "Enter an integer: ";
   std::cin >> userInput;
 
   while(true) {
-
+    
     if(userInput == 0){
       break;
     }
