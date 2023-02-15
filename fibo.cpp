@@ -14,17 +14,19 @@
 #include <iostream>
 
 int fibo(int numb1){
-
+// checking the first two base cases for fib(1), fib(2)
+// otherwise recursively iterating 
 if(numb1 == 0){
   return 0;
 } else if (numb1 == 1){
   return 1;
 } else 
-  return fibo(numb1-1) + fibo(numb1-2);
+  return fibo(numb1 - 1) + fibo(numb1 - 2);
 }
 
 int main(){ 
 
+  // taking user input for the ith fib number
   int fibNumb;
   int i = 0;
   std::cout << "How many fibonacci numbers would you like? " << std::endl;
