@@ -2,6 +2,8 @@
  *This program takes in a string (greater than 9)
  * 0 < input <= 9 is not exciting and reverses the
  * integers.
+ *
+ *@author Sebastian Mark
  * **********************************************/
 
 #include <iostream>
