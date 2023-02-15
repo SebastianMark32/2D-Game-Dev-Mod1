@@ -30,7 +30,7 @@ int main(){
   std::cout << "How many fibonacci numbers would you like? " << std::endl;
   std::cin >> fibNumb;
   while(i <= fibNumb){
-    std::cout << fibo(i) << " ";
+    std::cout << "Fibonacci of " << i << " = " << fibo(i) << "\n " << std::endl;
     i++;
   }
 
