@@ -7,7 +7,7 @@ int main() {
   std::cout << "Enter an integer: ";
   std::cin >> userInput;
 
-  while(userInput != 0) {
+  while(true) {
 
     if(userInput == 0){
       break;
