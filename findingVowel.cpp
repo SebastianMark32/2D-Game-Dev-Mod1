@@ -1,15 +1,16 @@
-/**
- * This program will ask the user to enter a character 
+/************************************************
+ * This program takes a user input and checks 
+ * whether the character is a vowel or not.
  *
+ * @author Sebastian Mark
  *
+ * C++ 2D Game Develoment
  *
- *@author Sebastian Mark
- *
- *
- */
-
+ * Professor Roy
+ * ***********************************************/
 
 #include <iostream>
+#include <cctype>
 
 void vowelCheck(char vowel){
   
@@ -40,13 +41,14 @@ while(true){
    
   // I do not think -1 exit flag is possible since we are using chars
   if(userInput == "-1"){
-    std::cout << "Thank you for playing the vowel Meta-verse game!" << std::endl;
+    std::cout << "Thank you for play the vowel game!" << std::endl;
     return 0;
-}
-
+} 
   char vowel = userInput[0];
-  vowelCheck(vowel); //always being executed until vowel = 1
 
+  if(isalpha(vowel)){
+  vowelCheck(vowel);
+  } else std::cout << "Try to enter a letter" << std::endl;
 
   }
 }
