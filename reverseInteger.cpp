@@ -4,6 +4,8 @@
  * integers.
  *
  *@author Sebastian Mark
+ * C++ 2D Game Dev
+ * Professor Roy
  * **********************************************/
 
 #include <iostream>
