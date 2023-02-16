@@ -14,7 +14,7 @@
 
 void leapYearChecker(int year){
 
-if(year % 4 == 0 || year % 100 == 0 && year % 400 != 0){
+if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0){
   std::cout << "This year is a leap year" << std::endl;
 } else std::cout << "Not a leap year" << std::endl;
 
