@@ -48,7 +48,7 @@ char character = userInput[0];
 if(isalpha(character)){
   vowelCheck(character);
  
- } else std::cout << "Try to enter a letter" << std::endl;
+ } else std::cout << "Error! Enter a letter" << std::endl;
 
 }
 
