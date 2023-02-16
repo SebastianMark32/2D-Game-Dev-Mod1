@@ -4,9 +4,9 @@
  *
  * @author Sebastian Mark
  *
- *C++ 2D Game Development
+ * C++ 2D Game Development
  *
- *Professor Roy
+ * Professor Roy
  * ****************************************/
 
 
