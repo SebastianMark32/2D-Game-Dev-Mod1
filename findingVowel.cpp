@@ -37,11 +37,12 @@ while(true){
 std::cout << "Enter a character: " << std::endl;
 std::cin >> userInput;
    
-// I do not think -1 exit flag is possible since we are using chars
+// Exit flag when user input = -1
 if(userInput == "-1"){
   std::cout << "Thank you for play the vowel game!" << std::endl;
   break;
 } 
+//converting into a char
 char character = userInput[0];
 
 //checking alphabet
