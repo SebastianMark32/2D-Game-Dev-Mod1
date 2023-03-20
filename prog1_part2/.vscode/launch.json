@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/sebastianmark/Desktop/prog1_part_two",
+      "program": "/Users/sebastianmark/Desktop/prog1_part_two/build/Debug/outDebug"
+    }
+  ]
+}
